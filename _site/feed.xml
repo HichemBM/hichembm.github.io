@@ -6,9 +6,9 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 12 Jun 2025 12:54:44 +0200</pubDate>
-    <lastBuildDate>Thu, 12 Jun 2025 12:54:44 +0200</lastBuildDate>
-    <generator>Jekyll v4.4.1</generator>
+    <pubDate>Thu, 12 Jun 2025 15:15:23 +0200</pubDate>
+    <lastBuildDate>Thu, 12 Jun 2025 15:15:23 +0200</lastBuildDate>
+    <generator>Jekyll v3.10.0</generator>
     
       <item>
         <title>Optimizing Google Workspace Operations at Buzzman</title>
