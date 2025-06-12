@@ -23,10 +23,10 @@ layout: default
                     {% if forloop.index <= page.post_count %}
                     <article class="post">
                         <div class="post-preview col-xs-10 no-gutter">
-                            <h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+                            <h2><a href="{{ post.url | downcase | prepend: site.baseurl }}">{{ post.title }}</a></h2>
 
                             <p class="meta">
-                                <a href="{{ post.author_url | prepend: site.baseurl }}">{{ post.author_name | capitalize}}</a> in <a href='{{ "/category/" | append: post.categories.first | prepend: site.baseurl }}'>{{ post.categories.first | capitalize}}</a>
+                                <a href="{{ post.author_url | prepend: site.baseurl }}">{{ post.author_name | capitalize}}</a> in <a href='{{ "/category/" | append: post.categories.first | downcase | prepend: site.baseurl }}'>{{ post.categories.first | capitalize}}</a>
                             </p>
                         </div>
                     </article>

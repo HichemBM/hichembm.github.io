@@ -10,7 +10,7 @@ layout: with-sidebar
     {% for post in site.posts %}
         {% if forloop.index <= 4 %}
         <article class="post-favorite col-xs-12 col-sm-6 ">
-            <h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+            <h2><a href="{{ post.url | downcase | prepend: site.baseurl }}">{{ post.title }}</a></h2>
 
             {{ post.excerpt | truncatewords: 18 }}
         </article>
