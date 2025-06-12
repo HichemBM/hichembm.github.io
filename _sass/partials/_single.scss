@@ -1,0 +1,102 @@
+/* Corrected _single.scss using SCSS syntax */
+
+.hero-image {
+    height: 150px;
+    width: 100%;
+    background-image: url(../img/default-single-hero.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    @include breakpoint(sm) { height: 300px; }
+    @include breakpoint(md) { height: 390px; }
+    @include breakpoint(lg) { height: 460px; }
+}
+
+.meta {
+    @include clearfix;
+    @include font-size(12);
+    margin-bottom: 0;
+
+    @include breakpoint(sm) { @include font-size(16); }
+    @include breakpoint(md) { margin-bottom: 20px; }
+}
+
+.single-content,
+.single-content-sidebar {
+    padding: 30px 8%;
+
+    h1 {
+        letter-spacing: -1pt;
+    }
+    h2 {
+        @include font-size(28);
+    }
+}
+
+footer.single {
+    padding: 40px 0 0 0;
+    background-color: #F5F5F5;
+    border-top: solid 1px #E9E9E9;
+    text-align: center;
+
+    &.without-readmore {
+        padding: 40px 0 40px 0;
+    }
+
+    @include breakpoint(sm) {
+        text-align: left;
+    }
+
+    .user-icon {
+        float: none;
+        @include breakpoint(sm) {
+            float: right;
+        }
+    }
+
+    p, h3 {
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-family: $sans;
+        @include font-size(14);
+        line-height: 30px;
+        margin: 0;
+    }
+}
+
+/* Specific override for page footers */
+footer.single.single-page p {
+    text-transform: none;
+}
+
+/* Styles for the "Read Another" section */
+footer .read-another-container {
+    position: relative;
+    text-align: center;
+
+    img {
+        width: auto;
+        height: auto;
+        z-index: 1;
+    }
+    .overlay {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: 2;
+        background-color: rgba(0,0,0,0.6);
+        top: 0;
+        left: 0;
+    }
+}
+
+footer .read-another {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    color: #fff;
+    z-index: 3;
+}

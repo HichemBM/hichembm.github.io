@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html class="no-js">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Hichem BM | IT Lead in the Paris area | Case Study: Orchestrating the Drivy-Getaround Google Workspace Merger</title>
+    <meta name="description" content="In the summer of 2019, following the acquisition of Drivy by its US competitor Getaround, I was faced with the most defining project of my career.">
+
+    <link rel="stylesheet" href="/css/main.css">
+
+    <link rel="canonical" href="http://localhost:4000/case-study-it-merger-drivy-getaround">
+    <link rel="alternate" type="application/rss+xml" title="Hichem BM | IT Lead in the Paris area" href="http://localhost:4000/feed.xml" />
+
+    <!--[if lt IE 9]>
+        <script src="/js/vendor/html5shiv.min.js"></script>
+    <![endif]-->
+</head>
+
+
+  <body class="">
+    <!-- if the user has javascript disabled they can still use the menu -->
+<noscript>
+    <div class="no-js-menu clearfix">
+        <ul>
+            
+                <li><i class="fa fa-home"></i><a href="/">Home</a></li>
+            
+                <li><i class="fa fa-user"></i><a href="/about/">About</a></li>
+            
+                <li><i class="fa fa-briefcase"></i><a href="/projects/">Projects</a></li>
+            
+                <li><i class="fa fa-pencil"></i><a href="/blog/">Blog</a></li>
+            
+                <li><i class="fa fa-envelope"></i><a href="/contact/">Contact</a></li>
+            
+        </ul>
+    </div>
+</noscript>
+<!-- end no script -->
+
+    <header class="hero-image" style="background-image: url(/img/getaround-merger-2.jpg);">
+    <span class="menu-trigger animated fadeInDown">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </span>
+
+    <div id="menu-target">
+    <ul>
+        
+            <li><i class="fa fa-home"></i><a href="/">Home</a></li>
+        
+            <li><i class="fa fa-user"></i><a href="/about/">About</a></li>
+        
+            <li><i class="fa fa-briefcase"></i><a href="/projects/">Projects</a></li>
+        
+            <li><i class="fa fa-pencil"></i><a href="/blog/">Blog</a></li>
+        
+            <li><i class="fa fa-envelope"></i><a href="/contact/">Contact</a></li>
+        
+    </ul>
+</div>
+
+</header>
+
+<main class="container">
+    <div class="row">
+        <div class="col-xs-12 single-content">
+          
+
+
+            <h1>Case Study: Orchestrating the Drivy-Getaround Google Workspace Merger</h1>
+
+            <p>In the summer of 2019, following the acquisition of Drivy by its US competitor Getaround, I was faced with the most defining project of my career.</p>
+
+<p>As the sole IT Manager for Drivy in Europe, and with Getaround having no dedicated IT staff at the time, the responsibility for the initial, critical phase of the merger (the integration of our core IT systems- fell on my shoulders. The very first, and most foundational, piece of this puzzle was merging our two distinct Google Workspace environments.</p>
+
+<h3 id="the-strategic-challenge-more-than-just-a-data-migration">The Strategic Challenge: More Than Just a Data Migration</h3>
+
+<p>The objective was technically complex but strategically vital: migrate all 200+ Drivy user accounts—including every email, calendar event, and Drive file—into the larger, 1100-user Getaround instance.</p>
+
+<p>This wasn’t just a data transfer; it was about laying the technical groundwork for unifying two distinct company cultures across continents. The project timeline was aggressive, driven by pressing marketing and business objectives that required a swift and seamless integration.</p>
+
+<p>Given the scale and tight deadlines, I made the strategic decision to partner with a third-party specialist, <a href="https://gcloud.devoteam.com/">Devoteam G Cloud</a>, to assist with the raw data migration.</p>
+
+<p>However, my role was to be the project’s chief architect and conductor, orchestrating every facet of the merger from planning and vendor management to technical execution and change management.</p>
+
+<h3 id="the-project-lifecycle-a-blend-of-technical-mastery-and-strategic-oversight">The Project Lifecycle: A Blend of Technical Mastery and Strategic Oversight</h3>
+
+<p>I designed and managed a multi-phased project plan that prioritized risk mitigation and minimal user disruption.</p>
+
+<p><strong>1. Discovery, Planning, and Vendor Management:</strong></p>
+
+<p>The project began with a meticulous audit of both Google Workspace environments. 
+On the Drivy side, we had a primary domain with five aliases and critical integrations with CRMs like Zendesk. The Getaround side was a much larger, global instance.</p>
+
+<p>I established a clear project governance structure, set up technical workshops, and defined the migration strategy. This foundational work formed the basis of the RFP for our third-party partner and ensured a smooth collaboration with Devoteam.</p>
+
+<p><strong>2. Technical Execution &amp; The Role of GAM:</strong>
+While our partner handled the “migration factory” setup, my hands-on technical expertise was crucial for managing the user-side operations.</p>
+
+<p>I extensively used <strong><a href="https://github.com/GAM-team/GAM">GAM</a></strong>, a command-line tool, to perform critical batch operations that were outside the scope of the migration tools.</p>
+
+<p>This included creating and mapping user accounts, managing groups with specific parameters, and executing the complex user renaming process during the final cutover.</p>
+
+<p>My proficiency with GAM was instrumental in managing the ~200 Drivy accounts and integrating them into the larger ~1100 user Getaround environment efficiently and without error.</p>
+
+<p><strong>3. Phased Migration &amp; Change Management:</strong>
+To minimize risk, we executed the migration in carefully planned stages:</p>
+
+<ul>
+  <li><strong>Pre-Migration:</strong> We first migrated all “cold” data older than 60 days to move the bulk of information without impacting active work.</li>
+  <li><strong>Delta Migration:</strong> Subsequent passes migrated more recent data, which I scheduled after work hours to avoid disruption.</li>
+  <li><strong>The Cutover:</strong> The final migration and switchover were meticulously planned for the last weekend of August, a period of lower activity that would minimize business impact.</li>
+</ul>
+
+<p>Communication was paramount. I developed a multi-channel communication plan using a mix of <strong>asynchronous</strong> (Slack, email, a dedicated Google Sites wiki for all information) and <strong>synchronous</strong> (weekly stand-ups, company-wide All-Hands meetings) methods to keep every stakeholder informed and to prepare users for the change.</p>
+
+<h3 id="the-outcome-a-999-success-rate-and-a-unified-company">The Outcome: A 99.9% Success Rate and a Unified Company</h3>
+
+<p>The project was completed on schedule and achieved a <strong>99.90% success rate</strong> in data migration. The only notable issue involved a handful of legacy Google Sites V1 pages that were incompatible with the migration tools. Even then, I was able to manually rebuild and recover approximately 60% of this content from archives and backups, ensuring minimal data loss.</p>
+
+<p>Beyond the technical success, the true result was cultural. The unified Google Workspace instance became a key milestone in the merger. It broke down geographical barriers, enabled seamless cross-continental collaboration from day one, and was a powerful symbol of our new, integrated company identity.</p>
+
+<p>This project was a testament to the power of combining deep technical knowledge with strategic project management to navigate one of the most critical phases of a corporate acquisition.</p>
+
+
+        </div><!-- main-content/col -->
+    </div> <!--/row -->
+
+</main> <!-- /container -->
+
+<footer class="single">
+    <div class="container">
+    <div class="row">
+        <div class="col-xs-12 col-sm-2">
+            <img src="/img/hichem.jpg" class="user-icon " alt="user-image">
+        </div>
+        <div class="col-xs-12 col-sm-6">
+            <div class="category-list">
+                <p>Published <span>Sep 5, 2019</span></p>
+                <p><a href="/about/">Hichem</a> in <a href='/category/Drivy'>Drivy</a></p>
+
+                
+
+
+            </div>
+        </div><!-- end col -->
+        <div class="col-xs-12 col-sm-4">
+            <div class="social">
+                <p>Share this article</a>
+                <div class="social-links">
+                    <a class="social-icon" href="#" data-platform="twitter" data-message="" data-url="http://localhost:4000/case-study-it-merger-drivy-getaround"><i class="fa fa-twitter"></i></a>
+
+                    <a class="social-icon" href="#" data-platform="facebook" data-message="" data-url="http://localhost:4000/case-study-it-merger-drivy-getaround"><i class="fa fa-facebook-official"></i></a>
+                    <a class="social-icon" data-platform="mail"  href="mailto:?body=http://localhost:4000/case-study-it-merger-drivy-getaround"><i class="fa fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+    </div><!-- end row -->
+</div>
+
+
+    
+</footer>
+
+
+    <script src='/js/vendor/modernizr.custom.32229-2.8-respondjs-1-4-2.js'></script>
+    <script src="/js/vendor/jquery-1.11.2.min.js"></script>
+    <script src='/js/vendor/jquery.jpanelmenu.min.js'></script>
+    <script type='application/javascript' src='/js/vendor/fastclick.min.js'></script>
+    
+    <script src=' /js/main.js'></script>
+  </body>
+
+</html>
