@@ -5,7 +5,7 @@ description: >
   Senior IT Manager with over a decade of experience helping startups and scale-ups build their IT department.
 baseurl: "" # For a user site, this should be empty
 url: "https://hichembm.github.io" # IMPORTANT: Set this to your live URL
-enable_retina: false
+enable_retina: true
 permalink: :title
 
 # Navigation

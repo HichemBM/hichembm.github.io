@@ -1,0 +1,30 @@
+@use "sass:color";
+
+@charset "utf-8";
+
+// --- FONT VARIABLES ---
+$sans: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+$serif: 'Droid Serif', serif;
+$base-font-family: $serif;
+
+// --- COLOR VARIABLES ---
+$text-color: #333337;
+$background-color: #fff;
+$brand-color: #4761e2;
+$light-blue: #4761e2; // Alias for brand-color
+
+$light-grey: #b6b6b6;
+$grey-color: $light-grey; // Alias
+$grey-color-light: color.adjust($light-grey, $lightness: 15%);
+$grey-color-dark: color.adjust($light-grey, $lightness: -30%);
+
+
+// --- TYPOGRAPHY & LAYOUT VARIABLES ---
+$base-font-size: 16px;
+$small-font-size: 14px;
+$base-line-height: 1.5;
+$spacing-unit: 30px;
+$content-width: 800px;
+
+// --- MEDIA QUERY BREAKPOINTS ---
+$on-laptop: 800px;
