@@ -25,3 +25,6 @@ footer_links:
   About: ['About', '/about/']
   Contact: ['Contact', '/contact/']
   LinkedIn: ['LinkedIn', 'https://www.linkedin.com/in/hichem-bm/', 'fa-linkedin']
+
+# In _config.yml
+site_version: 1.3
