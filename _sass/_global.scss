@@ -1,0 +1,23 @@
+// In theme-files/_sass/_global.scss
+
+/**
+ * Site-wide shared styles
+ */
+img {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    vertical-align: middle;
+    -ms-interpolation-mode: bicubic;
+}
+
+.btn {
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    font-family: $sans; // Use variable from _variables.scss
+}
+
+.animated {
+  visibility: visible !important; // Override for simplicity
+}

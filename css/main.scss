@@ -1,7 +1,17 @@
 ---
-# Only the main Sass file needs front matter (the dashes are enough)
 ---
 @charset "utf-8";
 
-// Import partials from `sass_dir` (defaults to `_sass`)
-@import "global";
+// 1. Import variables and mixins first.
+@import "variables";
+@import "mixins";
+
+// 2. Import base styles, layout, and typography.
+@import "base";
+@import "layout";
+@import "type";
+@import "syntax-highlighting";
+@import "global"; // Import the newly corrected global file
+
+// 3. If you have other partials in _sass/partials/, import them here.
+// e.g., @import "partials/single";
