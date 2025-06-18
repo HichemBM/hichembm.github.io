@@ -1,11 +1,15 @@
 # Site settings
 title: Hichem BM | IT Lead in the Paris area
-email: # You can add your email here later if you wish
-description: >
+email: your-email@example.com # Add your email here
+description: >-
   Senior IT Manager with over a decade of experience helping startups and scale-ups build their IT department.
-baseurl: "" # For a user site, this should be empty
-url: "https://hichembm.github.io" # IMPORTANT: Set this to your live URL
-enable_retina: true
+
+# URL and Baseurl
+# These are critical for your live site on GitHub Pages
+url: "https://hichembm.github.io"
+baseurl: ""
+
+# Build settings
 permalink: :title
 
 # Navigation
@@ -16,11 +20,8 @@ nav_list:
   Blog: ['Blog', '/blog/', 'fa-pencil']
   Contact: ['Contact', '/contact/', 'fa-envelope']
 
-# Footer for static pages (like About, 404). Note the ' for Let's is escaped with a second '.
-single_footer: '<p>Hichem BM&copy; | Let''s Discuss Your Next Challenge -> <a href="https://www.linkedin.com/in/hichem-bm/">Connect with me</a></p>'
-
-# Footer for pages with sidebars (like Home, Blog, Projects)
+# Footer Links (for the mini-footer on some pages)
 footer_links:
   About: ['About', '/about/']
-  Contact: ['Contact', '/contact/', 'fa-envelope']
+  Contact: ['Contact', '/contact/']
   LinkedIn: ['LinkedIn', 'https://www.linkedin.com/in/hichem-bm/', 'fa-linkedin']
