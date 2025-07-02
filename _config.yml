@@ -4,8 +4,8 @@ email: help@writer-theme.com
 description: > # Writer Theme is a responsive template
  focussed on typography, minimal design and
   quality photography built using the Jekyll platform.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
+baseurl: "/writer-jekyll" # the subpath of your site, e.g. /blog
+url: "https://hichembm.github.io" # the base hostname & protocol for your site
 enable_retina: false
 permalink: :title
 nav_list:
