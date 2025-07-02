@@ -1,0 +1,10 @@
+# Ignore the Jekyll build output folder
+_site/
+
+# Ignore Sass and Jekyll cache files
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Ignore macOS system files
+.DS_Store
