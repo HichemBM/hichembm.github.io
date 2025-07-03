@@ -24,11 +24,11 @@ layout: default
 
         <div class="col-xs-12 col-md-3 col-md-offset-1 single-content-sidebar-area">
 
-            <img src='{{ "/img/" | append: page.author_avatar | prepend: site.baseurl }}.jpg' class="user-icon " alt="user-image">
+            <img src='{{ "/img/" | downcase | append: page.author_avatar | prepend: site.baseurl }}.jpg' class="user-icon " alt="user-image">
             <div class="meta">
 
                 <div class="sidebar-info">
-                    <a href="{{ page.author_url | prepend: site.baseurl }}">{{ page.author_name | capitalize }}</a> in <a href='{{ "/category/" | append: page.categories.first | prepend: site.baseurl }}'>{{ page.categories.first | capitalize }}</a>
+                    <a href="{{ page.author_url | downcase | prepend: site.baseurl }}">{{ page.author_name | capitalize }}</a> in <a href='{{ "/category/" | downcase | append: page.categories.first | prepend: site.baseurl }}'>{{ page.categories.first | capitalize }}</a>
                 </div>
 
                 <div class="sidebar-readtime">
@@ -42,7 +42,7 @@ layout: default
             {% for post in site.related_posts %}
                 {% if forloop.index <= 5 %}
                 <div class="similar-post">
-                    <a href="{{ post.url | prepend: site.baseurl }}"><h3>{{ post.title }}</h3></a>
+                    <a href="{{ post.url | downcase | prepend: site.baseurl }}"><h3>{{ post.title }}</h3></a>
                 </div>
                 {% endif %}
             {% endfor %}

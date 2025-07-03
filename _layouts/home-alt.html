@@ -10,7 +10,7 @@ layout: with-sidebar
     {% for post in site.posts %}
         {% if forloop.index <= 4 %}
         <article class="post-favorite col-xs-12 col-sm-6 ">
-            <h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+            <h2><a href="{{ post.url | downcase | prepend: site.baseurl }}">{{ post.title }}</a></h2>
 
             {{ post.excerpt | truncatewords: 18 }}
         </article>
@@ -33,7 +33,7 @@ layout: with-sidebar
         {% if forloop.index <= 3 %}
         <div class="category-preview col-xs-6 col-sm-4 ">
             <h2>{{ category | first | capitalize }}</h2>
-            <a href='{{ "/category/" | append: category.first | prepend: site.baseurl }}'><img src='{{ "/img/" | append: category.first | prepend: site.baseurl }}-thumbnail.jpg' alt="category-image"></a>
+            <a href='{{ "/category/" | downcase | append: category.first | prepend: site.baseurl }}'><img src='{{ "/img/" | downcase | append: category.first | prepend: site.baseurl }}-thumbnail.jpg' alt="category-image"></a>
         </div>
         {% endif %}
     {% endfor %}
