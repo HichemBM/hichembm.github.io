@@ -7,24 +7,27 @@
 @import "global";
 
 /* Custom Font Overrides */
-body,
-.post-content,       /* The main content on a single post page */
-.post-excerpt,       /* The article preview on the homepage */
-.post-meta,          /* The "author in category" text */
-.site-footer,        /* The footer */
-.jpanel-menu,        /* The slide-out menu */
-.related-posts,      /* The related posts section */
-.pagination,         /* The pagination text */
-button,
-input,
-select,
-textarea {
-  font-family: 'Montserrat', sans-serif !important;
-  font-weight: 400 !important;
+.main-content p,
+.post-content p,
+.post-excerpt p {
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 400 !important;
 }
 
-/* Apply BOLD weight to all headings */
+/* This rule handles the rest of the elements */
+body,
+.post-meta,
+.site-footer,
+.jpanel-menu,
+.related-posts,
+.pagination,
+button, input, select, textarea {
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 400 !important;
+}
+
+/* This keeps all headings bold */
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Montserrat', sans-serif !important;
-  font-weight: 700 !important;
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 700 !important;
 }
