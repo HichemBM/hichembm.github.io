@@ -10374,13 +10374,15 @@ a:hover, a:active, a:focus {
   border-bottom: solid 1px #999;
 }
 
-/* My Custom Font Overrides - TESTING */
+/* Custom Font Overrides */
 body, button, input, select, textarea {
   font-family: "Montserrat", sans-serif !important;
+  font-weight: 400 !important; /* Use regular weight for body text */
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat", sans-serif !important;
+  font-weight: 700 !important; /* Use bold weight for headings */
 }
 
 /*# sourceMappingURL=main.css.map */
