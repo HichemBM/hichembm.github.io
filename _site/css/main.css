@@ -10375,14 +10375,31 @@ a:hover, a:active, a:focus {
 }
 
 /* Custom Font Overrides */
-body, button, input, select, textarea {
+/* All paragraph text in content areas */
+.main-content p,
+.post-content p,
+.post-excerpt p {
   font-family: "Montserrat", sans-serif !important;
-  font-weight: 400 !important; /* Use regular weight for body text */
+  font-weight: 400 !important;
 }
 
+/* Other elements */
+body,
+.post-meta,
+.meta,
+.site-footer,
+.jpanel-menu,
+.related-posts,
+.pagination,
+button, input, select, textarea {
+  font-family: "Montserrat", sans-serif !important;
+  font-weight: 400 !important;
+}
+
+/* Headings bold */
 h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat", sans-serif !important;
-  font-weight: 700 !important; /* Use bold weight for headings */
+  font-weight: 700 !important;
 }
 
 /*# sourceMappingURL=main.css.map */

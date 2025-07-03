@@ -7,6 +7,8 @@
 @import "global";
 
 /* Custom Font Overrides */
+
+/* All paragraph text in content areas */
 .main-content p,
 .post-content p,
 .post-excerpt p {
@@ -14,9 +16,10 @@
     font-weight: 400 !important;
 }
 
-/* This rule handles the rest of the elements */
+/* Other elements */
 body,
 .post-meta,
+.meta,
 .site-footer,
 .jpanel-menu,
 .related-posts,
@@ -26,7 +29,7 @@ button, input, select, textarea {
     font-weight: 400 !important;
 }
 
-/* This keeps all headings bold */
+/* Headings bold */
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Montserrat', sans-serif !important;
     font-weight: 700 !important;
