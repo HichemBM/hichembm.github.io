@@ -1,24 +1,32 @@
 # Site settings
-title: Writer Theme
-email: help@writer-theme.com
+title: Hichem BM | IT Lead in the Paris area
+email: email@gmail.com
 description: > # Writer Theme is a responsive template
- focussed on typography, minimal design and
-  quality photography built using the Jekyll platform.
-baseurl: "/writer-jekyll" # the subpath of your site, e.g. /blog
-url: "https://hichembm.github.io" # the base hostname & protocol for your site
+ Senior IT Manager with over a decade of experience 
+  helping startups and scale-ups build their IT department.
+
+# URL and Baseurl
+baseurl: "/writer-jekyll" 
+url: "https://hichembm.github.io"
+
+# Build settings
 enable_retina: false
 permalink: :title
+
+# Navigation
 nav_list:
-  Home : ['Home', '/', 'fa-home']
-  Home_Alt : ['Home Alt', '/home-alt', 'fa-home']
-  Home_Alt_2 : ['Home Alt 2', '/home-alt-2/', 'fa-home']
-  About : ['About', '/about', 'fa-anchor']
-  Contact : ['Contact', '/contact', 'fa-plane']
-  Author : ['Author', '/author/michelle', 'fa-user']
-single_footer: '<p>The writer community loves your content. Writer &copy; 2016 <a href="/">latest posts</a></p>'
+  Home: ['Home', '/', 'fa-home']
+  About: ['About', '/about/', 'fa-user']
+  Projects: ['Projects', '/projects/', 'fa-briefcase']
+  Blog: ['Blog', '/blog/', 'fa-pencil']
+  Contact: ['Contact', '/contact/', 'fa-envelope']
+
+# Footer Links (for the mini-footer on some pages)
+single_footer: '<p>Hichem BM 2025 | <a href="/blog">latest posts</a></p>'
 footer_links:
     About: ['About', '/about']
-    Writer: ['Writer 2016', '/about']
+    Contact: ['Contact', '/contact/']
+    LinkedIn: ['LinkedIn', 'https://www.linkedin.com/in/hichem-bm/', 'fa-linkedin']
 
 
 # Build settings

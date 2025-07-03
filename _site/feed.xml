@@ -1,284 +1,315 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Writer Theme</title>
-    <description>focussed on typography, minimal design and
- quality photography built using the Jekyll platform.
+    <title>Hichem BM | IT Lead in the Paris area</title>
+    <description>Senior IT Manager with over a decade of experience 
+ helping startups and scale-ups build their IT department.
 </description>
     <link>http://localhost:4000/writer-jekyll/</link>
     <atom:link href="http://localhost:4000/writer-jekyll/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 03 Jul 2025 12:38:48 +0200</pubDate>
-    <lastBuildDate>Thu, 03 Jul 2025 12:38:48 +0200</lastBuildDate>
+    <pubDate>Thu, 03 Jul 2025 16:03:09 +0200</pubDate>
+    <lastBuildDate>Thu, 03 Jul 2025 16:03:09 +0200</lastBuildDate>
     <generator>Jekyll v4.4.1</generator>
     
       <item>
-        <title>Supercharge Your Workflow With Grunt</title>
-        <description>&lt;p&gt;The Grunt ecosystem is huge and it’s growing every day. With literally hundreds of plugins to choose from, you can use Grunt to automate just about anything with a minimum of effort. If someone hasn’t already built what you need, authoring and publishing your own Grunt plugin to npm is a breeze. See how to &lt;a href=&quot;http://gruntjs.com/&quot;&gt;get started&lt;/a&gt;.&lt;/p&gt;
+        <title>Optimizing Google Workspace Operations at Buzzman</title>
+        <description>&lt;p&gt;Streamlining Collaboration and Administration&lt;/p&gt;
 
-&lt;p&gt;In one word: automation. The less work you have to do when performing repetitive tasks like minification, compilation, unit testing, linting, etc, the easier your job becomes. After you’ve configured it through a Gruntfile, a task runner can do most of that mundane work for you—and your team—with basically zero effort.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Situation:&lt;/strong&gt; At Buzzman, an advertising agency with approximately 80-100 users, Google Workspace (then Google Apps for Work) was the core platform for email, document collaboration, and communication (Gmail, Drive, Hangouts)[cite: 136]. While functional, there were opportunities to optimize its administration and ensure best practices were followed.&lt;/p&gt;
 
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Task:&lt;/strong&gt; My objective was to streamline the management of the Google Workspace instance, improve operational efficiency for user onboarding/offboarding, and ensure the platform was being utilized effectively and securely according to company needs.&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;my-project-name&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-  &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;version&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;0.1.0&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-  &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;devDependencies&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;grunt&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;~0.4.5&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-    &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;grunt-contrib-jshint&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;~0.10.0&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-    &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;grunt-contrib-nodeunit&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;~0.4.1&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-    &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;grunt-contrib-uglify&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;~0.5.0&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;
-  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;strong&gt;Action:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Admin Review:&lt;/strong&gt; Conducted a thorough review of the existing Google Workspace setup, including user accounts, groups, Drive sharing permissions, and security settings.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Process Refinement:&lt;/strong&gt; Standardized processes for user provisioning, de-provisioning, and group management to ensure consistency and security.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Feature Utilization:&lt;/strong&gt; Promoted the effective use of core features like shared Drives (Team Drives), Calendar resources, and Google Meet for efficient collaboration.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Security Best Practices:&lt;/strong&gt; Implemented or reinforced security best practices, such as encouraging 2-Step Verification adoption and reviewing third-party app access.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Support &amp;amp; Troubleshooting:&lt;/strong&gt; Acted as the primary point of contact for Google Workspace related support issues, resolving user queries and technical problems.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Exploration of Automation (Conceptual for Buzzman, implemented later elsewhere):&lt;/strong&gt; While at Buzzman, the scale might not have demanded complex automation, the experience here [cite: 136] laid the groundwork for later leveraging tools like GAM for batch operations [cite: 140, 143, 145, 148] and custom app development for onboarding (as done at Drivy [cite: 137, 138, 139]).&lt;/li&gt;
+&lt;/ol&gt;
 
-&lt;p&gt;The easiest way to add Grunt and gruntplugins to an existing &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;package.json&lt;/code&gt; is with the command &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;npm install &amp;lt;module&amp;gt; --save-dev&lt;/code&gt;. Not only will this install &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;module&amp;gt;&lt;/code&gt; locally, but it will automatically be added to the devDependencies section, using a tilde version range.&lt;/p&gt;
-
-&lt;p&gt;For example, this will install the latest version of Grunt in your project folder, adding it to your devDependencies:&lt;/p&gt;
-
-&lt;p&gt;Grunt&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Result:&lt;/strong&gt;
+The focused management of Google Workspace at Buzzman led to more efficient IT operations, particularly around user lifecycle management. Employees had reliable access to essential collaboration tools, and foundational security practices were maintained, ensuring a stable platform for the agency’s creative work. This hands-on experience with a smaller instance provided valuable insights for managing larger, more complex Google Workspace environments in subsequent roles.&lt;/p&gt;
 </description>
-        <pubDate>Wed, 11 Feb 2015 09:50:28 +0100</pubDate>
-        <link>http://localhost:4000/writer-jekyll/supercharge-your-workflow-with-grunt</link>
-        <guid isPermaLink="true">http://localhost:4000/writer-jekyll/supercharge-your-workflow-with-grunt</guid>
+        <pubDate>Tue, 03 Jun 2025 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000/writer-jekyll/buzzman-google-workspace-optimization</link>
+        <guid isPermaLink="true">http://localhost:4000/writer-jekyll/buzzman-google-workspace-optimization</guid>
         
         
-        <category>coding</category>
-        
-        <category>js</category>
+        <category>Buzzman</category>
         
       </item>
     
       <item>
-        <title>CSS with Superpowers</title>
-        <description>&lt;p&gt;Sass is completely compatible with all versions of CSS. We take this compatibility seriously, so that you can seamlessly use any available CSS libraries.&lt;/p&gt;
+        <title>Case Study: Enhancing Company-Wide Security with 1Password</title>
+        <description>&lt;p&gt;This project is an example of proactive IT management and adaptability, where an immediate team-level need was leveraged to address a larger, more strategic business objective: enhancing the company’s overall security posture.&lt;/p&gt;
 
-&lt;p&gt;Sass boasts more features and abilities than any other CSS extension language out there. The Sass Core Team has worked endlessly to not only keep up, but stay ahead.&lt;/p&gt;
+&lt;p&gt;The initiative began when the &lt;a href=&quot;https://getaround.tech/&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;EPDD (Engineering, Product, Data, and Design) teams&lt;/a&gt; at &lt;a href=&quot;https://getaround.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;Drivy&lt;/a&gt; needed a replacement for a credential-sharing tool that was being discontinued. My IT roadmap had already identified the need for a company-wide password manager, so I expanded the project’s scope to meet this larger goal. After a formal RFP process and vendor evaluation, &lt;a href=&quot;https://1password.com/business-security&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;1Password for Teams&lt;/a&gt; was selected as the optimal solution.&lt;/p&gt;
 
-&lt;h2 id=&quot;mature&quot;&gt;Mature&lt;/h2&gt;
-&lt;p&gt;Sass has been actively supported for about 8 years by its loving Core&lt;/p&gt;
+&lt;p&gt;I managed the full project lifecycle over a three-month period, structured in three main phases:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;the technical deployment and integration,&lt;/li&gt;
+  &lt;li&gt;a phased user onboarding and training program for over 130 employees across Europe, and&lt;/li&gt;
+  &lt;li&gt;the development of comprehensive documentation for long-term sustainability.&lt;/li&gt;
+&lt;/ol&gt;
 
-&lt;h2 id=&quot;team&quot;&gt;Team&lt;/h2&gt;
-&lt;p&gt;Over and over again, the industry is choosing Sass as the premier CSS extension language.&lt;/p&gt;
+&lt;p&gt;Key success factors included close alignment with stakeholder requirements from the outset and a carefully planned, phased rollout that prioritized the highest-need teams first.&lt;/p&gt;
 
-&lt;h2 id=&quot;large-community&quot;&gt;Large Community&lt;/h2&gt;
-&lt;p&gt;Sass is actively supported and developed by a consortium of several tech companies and hundreds of developers.&lt;/p&gt;
+&lt;p&gt;The project not only met its technical goals but also delivered significant cultural and security-related outcomes. It fostered a company-wide culture of security awareness, with users demonstrating a clear commitment to stronger security practices.&lt;/p&gt;
 
-&lt;h2 id=&quot;frameworks&quot;&gt;Frameworks&lt;/h2&gt;
-&lt;p&gt;There are endless number of frameworks built with Sass. Compass, Bourbon, and Susy just to name a few.&lt;/p&gt;
+&lt;p&gt;A notable metric of success was that approximately 65% of employees adopted the tool for personal use, indicating high user satisfaction and trust.&lt;/p&gt;
 
-&lt;p&gt;Dreamcatcher cold-pressed American Apparel, post-ironic Carles Shoreditch craft beer Banksy PBR retro distillery before they sold out freegan asymmetrical kogi. Food truck Schlitz direct trade, deep v ethical yr sriracha mumblecore freegan. Tattooed occupy pork belly, letterpress typewriter cold-pressed viral swag farm-to-table flexitarian. +1 hashtag put a bird on it authentic. 3 wolf moon locavore Vice, normcore actually meggings leggings cornhole brunch. Four loko vinyl trust fund, Intelligentsia wolf Bushwick lo-fi sriracha. Deep v vegan forage selvage.&lt;/p&gt;
+&lt;p&gt;This initiative successfully established 1Password as a fundamental and valued component of Drivy’s Information System.&lt;/p&gt;
 </description>
-        <pubDate>Wed, 11 Feb 2015 09:50:28 +0100</pubDate>
-        <link>http://localhost:4000/writer-jekyll/css-with-superpowers</link>
-        <guid isPermaLink="true">http://localhost:4000/writer-jekyll/css-with-superpowers</guid>
+        <pubDate>Sat, 15 Mar 2025 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/writer-jekyll/drivy-1password-deployment</link>
+        <guid isPermaLink="true">http://localhost:4000/writer-jekyll/drivy-1password-deployment</guid>
         
         
-        <category>coding</category>
-        
-        <category>css</category>
+        <category>Drivy</category>
         
       </item>
     
       <item>
-        <title>10 Reasons to travel the world</title>
-        <description>&lt;p&gt;Ask yourself, why not? What is the number one reason you wouldn’t. If the reason you get back is fear, you should just do it.&lt;/p&gt;
+        <title>EU HQ Relocation to Paris</title>
+        <description>&lt;h2 id=&quot;establishing-the-new-los-angeles-tech-hub&quot;&gt;Establishing the New Los Angeles Tech Hub&lt;/h2&gt;
 
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati doloribus, culpa, et suscipit praesentium incidunt, libero officiis ipsum fugiat odit aperiam commodi unde dignissimos veritatis accusamus molestias iste magni nobis?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Situation:&lt;/strong&gt; Jellysmack, a company focused on empowering online content creators[cite: 220], decided to establish a new USA headquarters in Los Angeles, specifically at the Pacific Design Center[cite: 133]. As IT Director, I joined during a period of company restructuring[cite: 222].&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000//writer-jekyllimg/post-assets/fire.jpg&quot; alt=&quot;Fire image&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Task:&lt;/strong&gt; I was responsible for supervising all IT aspects of this significant office relocation and setup[cite: 133]. This included designing the IT infrastructure for the new space, managing vendors, ensuring connectivity, and coordinating the technology needs for the employees moving into the new HQ.&lt;/p&gt;
 
-&lt;p&gt;Kale chips bespoke church-key American Apparel flannel pickled. Mlkshk High Life Blue Bottle, leggings gastropub four dollar toast post-ironic fap American Apparel VHS. Cliche cold-pressed single-origin coffee mlkshk retro distillery. 3 wolf moon Tumblr selvage semiotics food truck. Intelligentsia Pitchfork meh sriracha chambray, fanny pack lomo irony fap pickled stumptown. Twee +1 artisan, cred ethical gluten-free 90’s four loko Odd Future cronut small batch organic. Seitan hashtag jean shorts art party messenger bag.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Action:&lt;/strong&gt;
+My responsibilities encompassed:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Infrastructure Design &amp;amp; Planning:&lt;/strong&gt; Collaborated with facilities and architects to plan network cabling, server room requirements (if any, or cloud-first approach), Wi-Fi coverage, and AV setups for meeting rooms.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Vendor Management:&lt;/strong&gt; Sourced and managed vendors for internet service provision, network hardware installation, and AV equipment.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Procurement &amp;amp; Asset Management:&lt;/strong&gt; Oversaw the procurement of new IT equipment (laptops, monitors, peripherals) as needed and managed the inventory for the new location.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Network &amp;amp; Systems Setup:&lt;/strong&gt; Configured and deployed network infrastructure (routers, switches, firewalls, access points) and ensured seamless integration with existing Jellysmack corporate systems and security protocols.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;On-site Support &amp;amp; Go-Live:&lt;/strong&gt; Coordinated with any local IT support (even if it was a new hire like Taurean mentioned in another context [cite: 221, 224]) to manage the final setup and provide on-site support during the initial move-in phase, ensuring a smooth transition for employees.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Budget Oversight:&lt;/strong&gt; Managed the IT budget allocated for the relocation project.&lt;/li&gt;
+&lt;/ol&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;Scenester Echo Park tilde&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Locavore brunch kale chips vegan selvage High Life you probably haven’t heard of them before they sold out pork belly. Flexitarian organic wayfarers, cronut food truck bicycle rights drinking vinegar bespoke meditation mustache swag mumblecore semiotics locavore. Whatever kogi readymade, jean shorts pork belly chia distillery wayfarers. Art party single-origin coffee four dollar toast VHS, try-hard hoodie kogi normcore Neutra actually church-key flexitarian swag.&lt;/p&gt;
-
+&lt;p&gt;&lt;strong&gt;Result:&lt;/strong&gt;
+The new Jellysmack USA HQ in Los Angeles was successfully launched from an IT perspective, providing a robust and modern technological environment for employees. The infrastructure was designed to support current needs and future growth, ensuring reliable connectivity and access to all necessary corporate resources from day one. This project was crucial in establishing a key operational hub for the company in the US.&lt;/p&gt;
 </description>
-        <pubDate>Wed, 11 Feb 2015 09:50:28 +0100</pubDate>
-        <link>http://localhost:4000/writer-jekyll/ten-reasons-to-travel-the-world</link>
-        <guid isPermaLink="true">http://localhost:4000/writer-jekyll/ten-reasons-to-travel-the-world</guid>
+        <pubDate>Sun, 10 Sep 2023 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000/writer-jekyll/jellysmack-usa-hq-relocation</link>
+        <guid isPermaLink="true">http://localhost:4000/writer-jekyll/jellysmack-usa-hq-relocation</guid>
         
         
-        <category>travel</category>
-        
-        <category>storytime</category>
+        <category>Jellysmack</category>
         
       </item>
     
       <item>
-        <title>Why React JS Will Change the World</title>
-        <description>&lt;p&gt;React components implement a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;render()&lt;/code&gt; method that takes input data and returns what to display. This example uses an XML-like syntax called JSX. Input data that is passed into the component can be accessed by &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;render()&lt;/code&gt; via &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;this.props&lt;/code&gt;.&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;!DOCTYPE html&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;html&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;script &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;build/react.js&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;script &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;build/JSXTransformer.js&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/head&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;body&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;example&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;script &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;text/jsx&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-      &lt;span class=&quot;nx&quot;&gt;React&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;render&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
-        &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;h1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Hello&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;world&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;!&amp;lt;&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/h1&amp;gt;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;,
-&lt;/span&gt;        &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;getElementById&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&apos;&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;example&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-      &lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/body&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/html&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;h2 id=&quot;want-commonjs&quot;&gt;Want CommonJS?&lt;/h2&gt;
-&lt;p&gt;If you want to use React with browserify, webpack, or another CommonJS-compatible module system, just use the react npm package. In addition, the jsx build tool can be integrated into most packaging systems (not just CommonJS) quite easily.&lt;/p&gt;
-
-&lt;h2 id=&quot;next-steps&quot;&gt;Next Steps&lt;/h2&gt;
-&lt;p&gt;Check out the tutorial and the other examples in the starter kit’s examples directory to learn more.&lt;/p&gt;
-
-&lt;p&gt;We also have a wiki where the community contributes with workflows, UI-components, routing, data management etc.&lt;/p&gt;
-
-&lt;p&gt;Good luck, and welcome!&lt;/p&gt;
+        <title>Implementing AWS Workspaces for Specialized Needs at Alan</title>
+        <description>&lt;p&gt;Built a lightweight Virtual Desktop infrastructure, hosted on AWS.
+The goal was to provide for Windows systems, in a full-macOS ecosystem, for users in need of specific Windows-only software.&lt;/p&gt;
 </description>
-        <pubDate>Tue, 10 Feb 2015 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/writer-jekyll/why-react-js-will-change-the-world</link>
-        <guid isPermaLink="true">http://localhost:4000/writer-jekyll/why-react-js-will-change-the-world</guid>
+        <pubDate>Tue, 05 Apr 2022 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000/writer-jekyll/alan-virtual-desktop-infrastructure</link>
+        <guid isPermaLink="true">http://localhost:4000/writer-jekyll/alan-virtual-desktop-infrastructure</guid>
         
         
-        <category>coding</category>
-        
-        <category>js</category>
+        <category>Alan</category>
         
       </item>
     
       <item>
-        <title>Fake It Until You Make It</title>
-        <description>&lt;p&gt;Don’t listen to your critics, most people spend all day talking about what others are doing and no time doing anything themselves.&lt;/p&gt;
+        <title>Streamlining IT Asset Management at Qonto with Reftab</title>
+        <description>&lt;p&gt;&lt;em&gt;Enhancing IT Asset Visibility and Control&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam nihil eum cum quas! Consectetur aliquam molestias quos voluptatum recusandae accusantium eaque sed architecto esse. Ut obcaecati, porro numquam sed. Odio.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Situation:&lt;/strong&gt; As Qonto, a company in the banking industry[cite: 146], experienced rapid growth, managing the expanding inventory of IT assets (laptops, mobile devices, peripherals) became increasingly complex. A robust and centralized asset management system was needed for tracking, maintenance, and compliance.&lt;/p&gt;
 
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse quam provident accusamus vero autem culpa illum quo enim maiores eius error, sapiente inventore cum hic earum. Libero porro quisquam harum.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Task:&lt;/strong&gt; The goal was to implement an IT inventory tool to improve asset tracking, lifecycle management, and provide accurate data for financial reporting and security audits. Reftab was identified as the tool to be used. [cite: 152]&lt;/p&gt;
 
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in finibus diam, sit amet sollicitudin dui. Praesent erat dui, mattis sed elementum non, molestie et ipsum. Quisque fringilla vitae dolor a lacinia. Integer aliquam arcu non tortor egestas volutpat. Proin vitae pretium purus, a rhoncus sapien. Nam posuere rutrum lorem, eu sagittis ante scelerisque pretium. Morbi fermentum mauris a elit lacinia venenatis. Nunc ut iaculis nunc, sed faucibus nulla. Nunc at massa ut mi varius venenatis et id nibh. Sed molestie nibh sed risus mattis elementum. Ut iaculis, dolor sed consequat efficitur, nisi risus scelerisque dui, at bibendum velit nisi quis risus. Nunc gravida leo ut arcu tempus, et iaculis ex ullamcorper. Maecenas eget dolor diam. Suspendisse dapibus pulvinar tempus.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Action:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Needs Assessment:&lt;/strong&gt; Worked with IT, Finance, and Security teams to define the requirements for the asset management system, including data points to track, reporting needs, and integration capabilities.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Reftab Configuration:&lt;/strong&gt; Spearheaded the configuration and customization of the Reftab platform to align with Qonto’s specific asset types, locations, and workflows.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Data Migration:&lt;/strong&gt; Oversaw the process of populating Reftab with existing asset data, ensuring accuracy and completeness. This may have involved manual entry, spreadsheet imports, or integration with other systems if possible.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Process Integration:&lt;/strong&gt; Integrated Reftab into IT operational processes, including employee onboarding (asset assignment), offboarding (asset retrieval), repairs, and disposal.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Team Training:&lt;/strong&gt; Trained the IT team on using Reftab for daily asset management tasks.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Reporting Setup:&lt;/strong&gt; Established reporting mechanisms within Reftab to provide insights into asset distribution, aging, and status for compliance and financial purposes.&lt;/li&gt;
+&lt;/ol&gt;
 
-&lt;p&gt;Vestibulum semper dui risus, ut vestibulum ex vestibulum in. Duis vel placerat augue. Morbi dapibus turpis nisi, eleifend hendrerit ligula congue non. Vestibulum felis velit, vulputate at metus ac, ullamcorper pharetra sapien. Praesent eget nibh scelerisque, scelerisque velit semper, ultrices velit. Nunc luctus quam ut condimentum sodales. Quisque eget eleifend nibh. Donec sit amet metus massa.&lt;/p&gt;
-
-&lt;p&gt;Quisque sagittis arcu quis mauris consectetur tempus. Etiam id erat pretium, rutrum quam ut, commodo lacus. Proin vitae condimentum odio. Morbi facilisis ligula vitae auctor pretium. Fusce lorem lectus, ultrices sit amet neque ut, condimentum bibendum libero. Mauris cursus neque eros, vel consectetur quam mollis nec. Mauris quis est nec elit euismod condimentum. Vestibulum imperdiet suscipit elit et scelerisque. Vivamus mollis sagittis ante.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Result:&lt;/strong&gt;
+The implementation of Reftab provided Qonto with a centralized and accurate IT asset inventory. This led to improved efficiency in tracking and managing assets, better control over the asset lifecycle, reduced risk of loss or theft, and streamlined processes for audits and financial reporting. It also supported the high-security requirements of a banking industry company by ensuring all IT assets were accounted for. [cite: 146, 152]&lt;/p&gt;
 </description>
-        <pubDate>Tue, 10 Feb 2015 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/writer-jekyll/fake-it-until-you-make-it</link>
-        <guid isPermaLink="true">http://localhost:4000/writer-jekyll/fake-it-until-you-make-it</guid>
+        <pubDate>Wed, 10 Nov 2021 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/writer-jekyll/qonto-reftab-inventory</link>
+        <guid isPermaLink="true">http://localhost:4000/writer-jekyll/qonto-reftab-inventory</guid>
         
         
-        <category>motivation</category>
+        <category>Qonto</category>
         
       </item>
     
       <item>
-        <title>Its Not Always That Simple</title>
-        <description>&lt;p&gt;If you always do what you’ve always done, you’ll always get what you’ve always had.&lt;/p&gt;
+        <title>Paving the Road to ISO 27001: A TISAX Compliance Deep Dive</title>
+        <description>&lt;p&gt;My approach to IT has always been grounded in the robust frameworks that govern enterprise-level security and operations. I’ve consistently drawn inspiration from standards like NIST to build processes that are not just efficient, but also secure and auditable. In 2020, this governance-first mindset became critical when Getaround embarked on the path to TISAX compliance.&lt;/p&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;Want shows up in what you say, expectation shows up in behaviour&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;h3 id=&quot;the-strategic-imperative-aligning-with-automotive-industry-standards&quot;&gt;The Strategic Imperative: Aligning with Automotive Industry Standards&lt;/h3&gt;
 
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in finibus diam, sit amet sollicitudin dui. Praesent erat dui, mattis sed elementum non, molestie et ipsum. Quisque fringilla vitae dolor a lacinia. Integer aliquam arcu non tortor egestas volutpat. Proin vitae pretium purus, a rhoncus sapien. Nam posuere rutrum lorem, eu sagittis ante scelerisque pretium. Morbi fermentum mauris a elit lacinia venenatis. Nunc ut iaculis nunc, sed faucibus nulla. Nunc at massa ut mi varius venenatis et id nibh. Sed molestie nibh sed risus mattis elementum. Ut iaculis, dolor sed consequat efficitur, nisi risus scelerisque dui, at bibendum velit nisi quis risus. Nunc gravida leo ut arcu tempus, et iaculis ex ullamcorper. Maecenas eget dolor diam. Suspendisse dapibus pulvinar tempus.&lt;/p&gt;
+&lt;p&gt;TISAX (Trusted Information Security Assessment Exchange) is the gold standard for information security in the automotive industry.&lt;/p&gt;
 
-&lt;p&gt;Vestibulum semper dui risus, ut vestibulum ex vestibulum in. Duis vel placerat augue. Morbi dapibus turpis nisi, eleifend hendrerit ligula congue non. Vestibulum felis velit, vulputate at metus ac, ullamcorper pharetra sapien. Praesent eget nibh scelerisque, scelerisque velit semper, ultrices velit. Nunc luctus quam ut condimentum sodales. Quisque eget eleifend nibh. Donec sit amet metus massa.&lt;/p&gt;
+&lt;p&gt;For Getaround, preparing for the TISAX assessment was a strategic business imperative required to strengthen partnerships and operate with the highest level of trust within this ecosystem.&lt;/p&gt;
 
-&lt;p&gt;Quisque sagittis arcu quis mauris consectetur tempus. Etiam id erat pretium, rutrum quam ut, commodo lacus. Proin vitae condimentum odio. Morbi facilisis ligula vitae auctor pretium. Fusce lorem lectus, ultrices sit amet neque ut, condimentum bibendum libero. Mauris cursus neque eros, vel consectetur quam mollis nec. Mauris quis est nec elit euismod condimentum. Vestibulum imperdiet suscipit elit et scelerisque. Vivamus mollis sagittis ante.&lt;/p&gt;
+&lt;p&gt;As a key IT stakeholder, my role was to architect and drive the implementation of the core policies and controls necessary to meet these rigorous standards.&lt;/p&gt;
 
-&lt;p&gt;Aenean commodo, massa quis mattis lacinia, mi ipsum vestibulum nisi, ut tincidunt massa erat quis neque. Aliquam volutpat eu ligula a tincidunt. Suspendisse imperdiet, lacus vitae pretium imperdiet, nisi elit efficitur felis, id ullamcorper nulla dolor ac massa. In rutrum eget nisi et maximus. Nam consequat libero et feugiat lobortis. Donec sit amet felis faucibus, egestas enim id, condimentum justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed aliquam, nisl vel volutpat semper, mi lacus tempus ante, hendrerit consequat massa lorem at lacus. Phasellus vel felis scelerisque, consectetur arcu ac, euismod massa.&lt;/p&gt;
+&lt;p&gt;I collaborated closely with a dedicated cross-functional team, our Legal Counsel, and a third-party audit partner to build a comprehensive information security framework from the ground up.&lt;/p&gt;
+
+&lt;h3 id=&quot;building-a-framework-of-governance-risk-and-compliance-grc&quot;&gt;Building a Framework of Governance, Risk, and Compliance (GRC)&lt;/h3&gt;
+
+&lt;p&gt;Our work began with a comprehensive gap analysis, measuring our existing IT systems against the stringent TISAX assessment criteria, which are heavily influenced by the ISO 27001 framework.&lt;/p&gt;
+
+&lt;p&gt;My leadership was central to authoring, sponsoring, and implementing a suite of policies that would serve as the foundation of our new GRC framework.&lt;/p&gt;
+
+&lt;p&gt;As the official &lt;strong&gt;Sponsor&lt;/strong&gt; for IT topics, I took ultimate ownership of several core policies, including:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Access Management Policy:&lt;/strong&gt; Establishing a “least-privilege” access model based on NIST guidelines to define and verify user access to all critical systems.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Full Disk Encryption Policy:&lt;/strong&gt; Mandating and outlining the processes for encrypting all company devices to protect data at rest, a fundamental security control.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Network Management Policy:&lt;/strong&gt; Defining secure configuration standards for all network equipment to protect our data from unauthorized access and ensure network integrity.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;IT Asset Management Policy:&lt;/strong&gt; Creating a formal lifecycle for all physical IT assets—from planning and acquisition to secure disposal—based on ISO standards and NIST best practices.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Beyond sponsoring these documents, I provided critical stewardship for other essential policies, including those for Business Continuity Planning, Data Backups, and the Responsible Use of IT Systems.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-outcome-a-foundational-step-towards-iso-27001-certification&quot;&gt;The Outcome: A Foundational Step Towards ISO 27001 Certification&lt;/h3&gt;
+
+&lt;p&gt;Through this structured and policy-driven approach, we successfully established a mature, auditable information security program built on internationally recognized standards.&lt;/p&gt;
+
+&lt;p&gt;While our initial focus was TISAX, the comprehensive GRC framework, policies, and controls we developed were instrumental in paving the way for the company’s future success.&lt;/p&gt;
+
+&lt;p&gt;The foundational work performed by our team directly enabled &lt;a href=&quot;https://www.businesswire.com/news/home/20240820729492/en/Getaround-Successfully-Secures-ISO-27001-Certification-Reinforces-Leadership-in-Carsharing-Connected-Car-Space&quot;&gt;Getaround to achieve &lt;/a&gt;the prestigious &lt;strong&gt;ISO 27001 certification&lt;/strong&gt; a few years later.&lt;/p&gt;
+
+&lt;p&gt;This project was a testament to the power of proactive governance. By treating compliance not as a final destination but as a framework for operational excellence, we fundamentally strengthened the company’s security posture and built the necessary foundation for future security achievements.&lt;/p&gt;
+
+&lt;p&gt;It solidified my belief that a rigorous, policy-driven approach is the most effective way to manage risk and build trust in any regulated industry.&lt;/p&gt;
 </description>
-        <pubDate>Tue, 10 Feb 2015 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/writer-jekyll/its-not-always-that-simple</link>
-        <guid isPermaLink="true">http://localhost:4000/writer-jekyll/its-not-always-that-simple</guid>
+        <pubDate>Tue, 15 Sep 2020 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000/writer-jekyll/getaround-tisax-compliance</link>
+        <guid isPermaLink="true">http://localhost:4000/writer-jekyll/getaround-tisax-compliance</guid>
         
         
-        <category>motivation</category>
+        <category>Getaround</category>
         
       </item>
     
       <item>
-        <title>Stop Thinking And Start Doing</title>
-        <description>&lt;p&gt;Get out of your head. Every good decision starts with a momment of action. What are you going to do today!&lt;/p&gt;
+        <title>Case Study: Orchestrating the Drivy-Getaround Google Workspace Merger</title>
+        <description>&lt;p&gt;In the summer of 2019, following the acquisition of Drivy by its US competitor Getaround, I was faced with the most defining project of my career.&lt;/p&gt;
 
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in finibus diam, sit amet sollicitudin dui. Praesent erat dui, mattis sed elementum non, molestie et ipsum. Quisque fringilla vitae dolor a lacinia. Integer aliquam arcu non tortor egestas volutpat. Proin vitae pretium purus, a rhoncus sapien. Nam posuere rutrum lorem, eu sagittis ante scelerisque pretium. Morbi fermentum mauris a elit lacinia venenatis. Nunc ut iaculis nunc, sed faucibus nulla. Nunc at massa ut mi varius venenatis et id nibh. Sed molestie nibh sed risus mattis elementum. Ut iaculis, dolor sed consequat efficitur, nisi risus scelerisque dui, at bibendum velit nisi quis risus. Nunc gravida leo ut arcu tempus, et iaculis ex ullamcorper. Maecenas eget dolor diam. Suspendisse dapibus pulvinar tempus.&lt;/p&gt;
+&lt;p&gt;As the sole IT Manager for Drivy in Europe, and with Getaround having no dedicated IT staff at the time, the responsibility for the initial, critical phase of the merger (the integration of our core IT systems- fell on my shoulders. The very first, and most foundational, piece of this puzzle was merging our two distinct Google Workspace environments.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000//writer-jekyllimg/post-assets/walk.jpg&quot; alt=&quot;walk&quot; /&gt;&lt;/p&gt;
+&lt;h3 id=&quot;the-strategic-challenge-more-than-just-a-data-migration&quot;&gt;The Strategic Challenge: More Than Just a Data Migration&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000//writer-jekyllimg/post-assets/water.jpg&quot; alt=&quot;water&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;The objective was technically complex but strategically vital: migrate all 200+ Drivy user accounts—including every email, calendar event, and Drive file—into the larger, 1100-user Getaround instance.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000//writer-jekyllimg/post-assets/woods.jpg&quot; alt=&quot;woods&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;This wasn’t just a data transfer; it was about laying the technical groundwork for unifying two distinct company cultures across continents. The project timeline was aggressive, driven by pressing marketing and business objectives that required a swift and seamless integration.&lt;/p&gt;
 
-&lt;p&gt;Vestibulum semper dui risus, ut vestibulum ex vestibulum in. Duis vel placerat augue. Morbi dapibus turpis nisi, eleifend hendrerit ligula congue non. Vestibulum felis velit, vulputate at metus ac, ullamcorper pharetra sapien. Praesent eget nibh scelerisque, scelerisque velit semper, ultrices velit. Nunc luctus quam ut condimentum sodales. Quisque eget eleifend nibh. Donec sit amet metus massa.&lt;/p&gt;
+&lt;p&gt;Given the scale and tight deadlines, I made the strategic decision to partner with a third-party specialist, &lt;a href=&quot;https://gcloud.devoteam.com/&quot;&gt;Devoteam G Cloud&lt;/a&gt;, to assist with the raw data migration.&lt;/p&gt;
 
-&lt;p&gt;Quisque sagittis arcu quis mauris consectetur tempus. Etiam id erat pretium, rutrum quam ut, commodo lacus. Proin vitae condimentum odio. Morbi facilisis ligula vitae auctor pretium. Fusce lorem lectus, ultrices sit amet neque ut, condimentum bibendum libero. Mauris cursus neque eros, vel consectetur quam mollis nec. Mauris quis est nec elit euismod condimentum. Vestibulum imperdiet suscipit elit et scelerisque. Vivamus mollis sagittis ante.&lt;/p&gt;
+&lt;p&gt;However, my role was to be the project’s chief architect and conductor, orchestrating every facet of the merger from planning and vendor management to technical execution and change management.&lt;/p&gt;
 
-&lt;p&gt;Aenean commodo, massa quis mattis lacinia, mi ipsum vestibulum nisi, ut tincidunt massa erat quis neque. Aliquam volutpat eu ligula a tincidunt. Suspendisse imperdiet, lacus vitae pretium imperdiet, nisi elit efficitur felis, id ullamcorper nulla dolor ac massa. In rutrum eget nisi et maximus. Nam consequat libero et feugiat lobortis. Donec sit amet felis faucibus, egestas enim id, condimentum justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed aliquam, nisl vel volutpat semper, mi lacus tempus ante, hendrerit consequat massa lorem at lacus. Phasellus vel felis scelerisque, consectetur arcu ac, euismod massa.&lt;/p&gt;
+&lt;h3 id=&quot;the-project-lifecycle-a-blend-of-technical-mastery-and-strategic-oversight&quot;&gt;The Project Lifecycle: A Blend of Technical Mastery and Strategic Oversight&lt;/h3&gt;
 
+&lt;p&gt;I designed and managed a multi-phased project plan that prioritized risk mitigation and minimal user disruption.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;1. Discovery, Planning, and Vendor Management:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The project began with a meticulous audit of both Google Workspace environments. 
+On the Drivy side, we had a primary domain with five aliases and critical integrations with CRMs like Zendesk. The Getaround side was a much larger, global instance.&lt;/p&gt;
+
+&lt;p&gt;I established a clear project governance structure, set up technical workshops, and defined the migration strategy. This foundational work formed the basis of the RFP for our third-party partner and ensured a smooth collaboration with Devoteam.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2. Technical Execution &amp;amp; The Role of GAM:&lt;/strong&gt;
+While our partner handled the “migration factory” setup, my hands-on technical expertise was crucial for managing the user-side operations.&lt;/p&gt;
+
+&lt;p&gt;I extensively used &lt;strong&gt;&lt;a href=&quot;https://github.com/GAM-team/GAM&quot;&gt;GAM&lt;/a&gt;&lt;/strong&gt;, a command-line tool, to perform critical batch operations that were outside the scope of the migration tools.&lt;/p&gt;
+
+&lt;p&gt;This included creating and mapping user accounts, managing groups with specific parameters, and executing the complex user renaming process during the final cutover.&lt;/p&gt;
+
+&lt;p&gt;My proficiency with GAM was instrumental in managing the ~200 Drivy accounts and integrating them into the larger ~1100 user Getaround environment efficiently and without error.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;3. Phased Migration &amp;amp; Change Management:&lt;/strong&gt;
+To minimize risk, we executed the migration in carefully planned stages:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Pre-Migration:&lt;/strong&gt; We first migrated all “cold” data older than 60 days to move the bulk of information without impacting active work.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Delta Migration:&lt;/strong&gt; Subsequent passes migrated more recent data, which I scheduled after work hours to avoid disruption.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;The Cutover:&lt;/strong&gt; The final migration and switchover were meticulously planned for the last weekend of August, a period of lower activity that would minimize business impact.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Communication was paramount. I developed a multi-channel communication plan using a mix of &lt;strong&gt;asynchronous&lt;/strong&gt; (Slack, email, a dedicated Google Sites wiki for all information) and &lt;strong&gt;synchronous&lt;/strong&gt; (weekly stand-ups, company-wide All-Hands meetings) methods to keep every stakeholder informed and to prepare users for the change.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-outcome-a-999-success-rate-and-a-unified-company&quot;&gt;The Outcome: A 99.9% Success Rate and a Unified Company&lt;/h3&gt;
+
+&lt;p&gt;The project was completed on schedule and achieved a &lt;strong&gt;99.90% success rate&lt;/strong&gt; in data migration. The only notable issue involved a handful of legacy Google Sites V1 pages that were incompatible with the migration tools. Even then, I was able to manually rebuild and recover approximately 60% of this content from archives and backups, ensuring minimal data loss.&lt;/p&gt;
+
+&lt;p&gt;Beyond the technical success, the true result was cultural. The unified Google Workspace instance became a key milestone in the merger. It broke down geographical barriers, enabled seamless cross-continental collaboration from day one, and was a powerful symbol of our new, integrated company identity.&lt;/p&gt;
+
+&lt;p&gt;This project was a testament to the power of combining deep technical knowledge with strategic project management to navigate one of the most critical phases of a corporate acquisition.&lt;/p&gt;
 </description>
-        <pubDate>Tue, 10 Feb 2015 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/writer-jekyll/stop-thinking-and-start-doing</link>
-        <guid isPermaLink="true">http://localhost:4000/writer-jekyll/stop-thinking-and-start-doing</guid>
+        <pubDate>Thu, 05 Sep 2019 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000/writer-jekyll/case-study-it-merger-drivy-getaround</link>
+        <guid isPermaLink="true">http://localhost:4000/writer-jekyll/case-study-it-merger-drivy-getaround</guid>
         
         
-        <category>motivation</category>
+        <category>Drivy</category>
         
-        <category>storytime</category>
+        <category>Getaround</category>
         
       </item>
     
       <item>
-        <title>A Great Story Never Told</title>
-        <description>&lt;p&gt;I’ve never told this to anyone. Sit yourself down and strap yourself in, you will experience some turbulence before you reach a steady altitude.&lt;/p&gt;
+        <title>Case Study: IT Crisis Management &amp; Infrastructure Recovery at Drivy</title>
+        <description>&lt;p&gt;In IT leadership, you plan for every contingency, but true capability is often demonstrated when the unexpected happens.&lt;/p&gt;
 
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam nihil eum cum quas! Consectetur aliquam molestias quos voluptatum recusandae accusantium eaque sed architecto esse. Ut obcaecati, porro numquam sed. Odio.&lt;/p&gt;
+&lt;p&gt;In February 2018, while at Drivy, we faced a significant crisis: &lt;strong&gt;a fire broke out&lt;/strong&gt; on a lower floor of our office building, sending smoke and soot through the utility shafts and compromising critical infrastructure.&lt;/p&gt;
 
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse quam provident accusamus vero autem culpa illum quo enim maiores eius error, sapiente inventore cum hic earum. Libero porro quisquam harum.&lt;/p&gt;
+&lt;h3 id=&quot;the-challenge-from-crisis-discovery-to-business-continuity&quot;&gt;The Challenge: From Crisis Discovery to Business Continuity&lt;/h3&gt;
+&lt;p&gt;The fire started on a Saturday while the building was empty, but the business impact was immediate.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000//writer-jekyllimg/post-assets/iceland.jpg&quot; alt=&quot;iceland&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;With firefighters blocking all access to the building, our entire on-site network infrastructure was down and inaccessible. The fire had impacted the building’s technical closets, rendering key components of our network inoperable.&lt;/p&gt;
 
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam nihil eum cum quas! Consectetur aliquam molestias quos voluptatum recusandae accusantium eaque sed architecto esse. Ut obcaecati, porro numquam sed. Odio.&lt;/p&gt;
+&lt;p&gt;My primary objective was clear: ensure a fully operational and stable network environment to allow over 100 employees to return to work seamlessly as soon as the building was cleared by the authorities.&lt;/p&gt;
 
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse quam provident accusamus vero autem culpa illum quo enim maiores eius error, sapiente inventore cum hic earum. Libero porro quisquam harum.&lt;/p&gt;
+&lt;p&gt;With the CEO’s full trust and a &lt;em&gt;carte blanche&lt;/em&gt; to resolve the situation, I immediately partnered with the Office Manager to execute a rapid recovery plan.&lt;/p&gt;
 
+&lt;h3 id=&quot;my-approach-a-methodical-response-under-pressure&quot;&gt;My Approach: A Methodical Response Under Pressure&lt;/h3&gt;
+
+&lt;p&gt;My immediate priority was to conduct a thorough and systematic damage assessment. While our teams were temporarily relocated to coworking spaces, I initiated a multi-point inspection:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;External Connectivity (WAN):&lt;/strong&gt; I visually inspected the building’s technical rooms and liaised directly with our Internet Service Provider to confirm the integrity of our primary fiber optic link.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Internal Infrastructure:&lt;/strong&gt; I meticulously tested all internal hardware, including switches and access points. This process quickly isolated the point of failure: our main network router was inoperable due to electric damage.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;With a precise diagnosis, I moved from assessment to resolution. The timeline was extremely tight. Leveraging my network of trusted vendors, I negotiated the expedited acquisition of a new router that met both our technical requirements and budget.&lt;/p&gt;
+
+&lt;p&gt;The key technical challenge was that the new router was from a different manufacturer, requiring me to quickly adapt and configure a new system to match our existing network architecture; a task that demanded both technical knowledge and adaptability under pressure.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-outcome-a-seamless-return-and-a-stronger-foundation&quot;&gt;The Outcome: A Seamless Return and a Stronger Foundation&lt;/h3&gt;
+
+&lt;p&gt;As a direct result of this swift and methodical approach, the new network infrastructure was fully deployed, configured, and tested before the deadline.&lt;/p&gt;
+
+&lt;p&gt;The return to the office was smooth, with zero IT-related disruptions for our employees.&lt;/p&gt;
+
+&lt;p&gt;This incident served as a powerful real-world stress test of my ability to manage crises, make critical decisions under pressure, and combine technical skills with strategic vendor management.&lt;/p&gt;
+
+&lt;p&gt;More importantly, the lessons learned and the architecture I designed during this recovery process became an invaluable blueprint for the more complex network infrastructure I would later deploy for the company’s new headquarters.&lt;/p&gt;
+
+&lt;p&gt;It was a clear demonstration that effective IT leadership isn’t just about maintaining systems, but about ensuring business resilience in the face of any challenge.&lt;/p&gt;
 </description>
-        <pubDate>Tue, 10 Feb 2015 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/writer-jekyll/a-great-story-never-told</link>
-        <guid isPermaLink="true">http://localhost:4000/writer-jekyll/a-great-story-never-told</guid>
+        <pubDate>Wed, 28 Feb 2018 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/writer-jekyll/case-study-it-crisis-management-drivy</link>
+        <guid isPermaLink="true">http://localhost:4000/writer-jekyll/case-study-it-crisis-management-drivy</guid>
         
         
-        <category>storytime</category>
-        
-        <category>life</category>
-        
-        <category>journey</category>
-        
-      </item>
-    
-      <item>
-        <title>You Dont Have To Be Great To Get Started</title>
-        <description>&lt;p&gt;It was a cold December morning, as I sat out on my porch I decided today was the day.&lt;/p&gt;
-
-&lt;p&gt;Dreamcatcher cold-pressed American Apparel, post-ironic Carles Shoreditch craft beer Banksy PBR retro distillery before they sold out freegan asymmetrical kogi. Food truck Schlitz direct trade, deep v ethical yr sriracha mumblecore freegan. Tattooed occupy pork belly, letterpress typewriter cold-pressed viral swag farm-to-table flexitarian. +1 hashtag put a bird on it authentic. 3 wolf moon locavore Vice, normcore actually meggings leggings cornhole brunch. Four loko vinyl trust fund, Intelligentsia wolf Bushwick lo-fi sriracha. Deep v vegan forage selvage.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000//writer-jekyllimg/post-assets/view.jpg&quot; alt=&quot;view&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam nihil eum cum quas! Consectetur aliquam molestias quos voluptatum recusandae accusantium eaque sed architecto esse. Ut obcaecati, porro numquam sed. Odio.&lt;/p&gt;
-
-&lt;p&gt;Dreamcatcher cold-pressed American Apparel, post-ironic Carles Shoreditch craft beer Banksy PBR retro distillery before they sold out freegan asymmetrical kogi. Food truck Schlitz direct trade, deep v ethical yr sriracha mumblecore freegan. Tattooed occupy pork belly, letterpress typewriter cold-pressed viral swag farm-to-table flexitarian. +1 hashtag put a bird on it authentic. 3 wolf moon locavore Vice, normcore actually meggings leggings cornhole brunch. Four loko vinyl trust fund, Intelligentsia wolf Bushwick lo-fi sriracha. Deep v vegan forage selvage.&lt;/p&gt;
-
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse quam provident accusamus vero autem culpa illum quo enim maiores eius error, sapiente inventore cum hic earum. Libero porro quisquam harum.&lt;/p&gt;
-
-</description>
-        <pubDate>Tue, 10 Feb 2015 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/writer-jekyll/you-dont-have-to-be-great-to-get-started</link>
-        <guid isPermaLink="true">http://localhost:4000/writer-jekyll/you-dont-have-to-be-great-to-get-started</guid>
-        
-        
-        <category>motivation</category>
-        
-        <category>leadership</category>
-        
-        <category>journey</category>
+        <category>Drivy</category>
         
       </item>
     
