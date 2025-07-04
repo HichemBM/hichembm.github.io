@@ -4,7 +4,7 @@ title: "Streamlining IT Asset Management at Qonto with Reftab"
 date: 2021-11-10
 categories: Qonto
 author_name: Hichem
-author_url: /author/hichem/
+author_url: /about/
 author_avatar: hichem
 show_avatar: true
 read_time: 6
