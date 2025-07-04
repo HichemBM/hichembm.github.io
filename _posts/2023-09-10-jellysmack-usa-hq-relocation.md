@@ -3,15 +3,14 @@ layout: post
 title: "EU HQ Relocation to Paris"
 date: 2023-09-10
 categories: Jellysmack
-author_name: Your Name
-author_url: /author/your-name/
-author_avatar: your-name
+author_name: Hichem
+author_url: /about/
+author_avatar: hichem
 show_avatar: true
 read_time: 7
 feature_image: feature-office # Example, replace with actual image name
 ---
-
-## Establishing the New Los Angeles Tech Hub
+Establishing the New Los Angeles Tech Hub
 
 **Situation:** Jellysmack, a company focused on empowering online content creators[cite: 220], decided to establish a new USA headquarters in Los Angeles, specifically at the Pacific Design Center[cite: 133]. As IT Director, I joined during a period of company restructuring[cite: 222].
 
