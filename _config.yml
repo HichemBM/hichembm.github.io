@@ -1,13 +1,13 @@
 # Site settings
 title: Hichem BM | IT Lead in the Paris area
 email: email@gmail.com
-description: > # Writer Theme is a responsive template
- Senior IT Manager with over a decade of experience 
+description: >
+ Senior IT Manager with over a decade of experience
   helping startups and scale-ups build their IT department.
 
 # URL and Baseurl
-baseurl: "/writer-jekyll" 
-url: "https://hichembm.github.io"
+baseurl: ""
+url: "https://hichem.tech"
 
 # Build settings
 enable_retina: false
