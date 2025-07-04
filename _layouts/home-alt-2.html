@@ -26,7 +26,7 @@ layout: default
                             <h2><a href="{{ post.url | downcase | prepend: site.baseurl }}">{{ post.title }}</a></h2>
 
                             <p class="meta">
-                                <a href="{{ post.author_url | downcase | prepend: site.baseurl }}">{{ post.author_name | capitalize}}</a> in <a href='{{ "/category/" | downcase | append: post.categories.first | prepend: site.baseurl }}'>{{ post.categories.first | downcase | capitalize}}</a>
+                                <a href="{{ post.author_url | prepend: site.baseurl }}">{{ post.author_name | capitalize}}</a> in <a href='{{ "/category/" | append: post.categories.first | downcase | prepend: site.baseurl }}'>{{ post.categories.first | capitalize}}</a>
                             </p>
                         </div>
                     </article>
@@ -52,8 +52,8 @@ layout: default
 
                             <div class="category-preview col-xs-6 col-sm-4 ">
                                 <h2>{{ category | first }}</h2>
-                                <a href='{{ "/category/" | append: category.first | downcase  | prepend: site.baseurl }}/'>
-                                    <img src='{{ "/img/" | append: category.first | downcase  | prepend: site.baseurl }}-thumbnail.jpg' alt="category-image">
+                                <a href='{{ "/category/" | append: category.first | downcase | prepend: site.baseurl }}/'>
+                                    <img src='{{ "/img/" | append: category.first | downcase | prepend: site.baseurl }}-thumbnail.jpg' alt="category-image">
                                 </a>
                             </div>
                         {% endfor %}
