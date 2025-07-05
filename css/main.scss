@@ -7,8 +7,7 @@
 @import "global";
 
 /* Custom Font Overrides */
-
-/* All paragraph text in content areas */
+/* Paragraph text */
 .main-content p,
 .post-content p,
 .post-excerpt p {
@@ -33,4 +32,25 @@ button, input, select, textarea {
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Montserrat', sans-serif !important;
     font-weight: 700 !important;
+}
+
+/* ==========================================================================
+   Feature: Sticky Navigation Button (FINAL)
+   ========================================================================== */
+
+.menu-trigger {
+  position: fixed !important;
+  top: 15px;
+  left: 15px;
+  z-index: 1080;
+  /* Add a smooth transition for the slide effect */
+  transition: left 0.2s ease-in-out;
+}
+
+/*
+ * When the menu is open, slide the button to the right
+ * by the width of the menu panel (250px) + its original offset (15px).
+*/
+body[data-menu-position="open"] .menu-trigger {
+  left: 265px; /* 250px (panel width) + 15px (original offset) */
 }
