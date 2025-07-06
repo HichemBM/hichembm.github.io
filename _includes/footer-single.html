@@ -9,18 +9,6 @@
 
                 <p><a href="{{ page.author_url | downcase | prepend: site.baseurl }}">{{ page.author_name | capitalize }}</a> in <a href='{{ page.categories.first | downcase | prepend: "/category/" | prepend: site.baseurl }}'>{{ page.categories.first | capitalize }}</a></p>
 
-                <div class="other-catergories">
-                    <h3>Also found in</h3>
-                    <ul>
-                        {% for category in page.categories %}
-                        <li>
-                            <a href='{{ category | downcase | prepend: "/category/" | prepend: site.baseurl }}'>{{ category | capitalize }}</a>
-                            {% if forloop.last %}{% else %},{% endif %}
-                        </li>
-                        {% endfor %}
-                    </ul>
-                </div>
-
             </div>
         </div><div class="col-xs-12 col-sm-4">
             <div class="social">
