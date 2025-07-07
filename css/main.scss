@@ -57,7 +57,6 @@ body[data-menu-position="open"] .menu-trigger {
 
 
 
-
 /* ==========================================================================
    Final Custom Overrides
    ========================================================================== */
@@ -76,13 +75,14 @@ button, input, select, textarea {
     font-weight: 400 !important;
 }
 
-/* 2. Apply justify alignment to paragraphs and lists inside ALL content areas */
+/* 2. Unify text styles for all main content (paragraphs AND lists) */
 .post-content p,
 .single-content p,
 .post-content li,
 .single-content li {
+    font-size: 2.1rem !important; /* Unifies font size to match paragraphs */
+    line-height: 1.65 !important;
     text-align: justify;
-    /* Font size and line-height rules have been removed to use the theme's default */
 }
 
 /* 3. Style all headings */
