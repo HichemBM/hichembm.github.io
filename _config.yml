@@ -1,9 +1,10 @@
-# Site settings
-title: Hichem BM | IT Lead in the Paris area
-email: email@gmail.com
-description: >
- Senior IT Manager with over a decade of experience
-  helping startups and scale-ups build their IT department.
+# _config.yml
+
+title: Hichem Ben Marzoug
+tagline: IT Management Professional | System Mergers & Operational Strategy
+description: >- 
+  The professional portfolio and blog of Hichem Ben Marzoug, an IT leadership
+  professional specializing in system mergers, cloud infrastructure, and operational efficiency.
 
 # URL and Baseurl
 baseurl: ""
