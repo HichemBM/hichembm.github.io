@@ -2,7 +2,7 @@
 
 title: Hichem Ben Marzoug
 tagline: IT Management Professional | System Mergers & Operational Strategy
-description: >- 
+description: >-
   The professional portfolio and blog of Hichem Ben Marzoug, an IT leadership
   professional specializing in system mergers, cloud infrastructure, and operational efficiency.
 
@@ -32,3 +32,8 @@ footer_links:
 
 # Build settings
 # markdown: kramdown
+
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-seo-tag

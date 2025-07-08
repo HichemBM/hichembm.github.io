@@ -3898,3 +3898,13 @@ h1, h2, h3, h4, h5, h6 { font-family: 'Montserrat', sans-serif !important; font-
 /* When the menu is open, slide the button to the right by the width of the menu panel (250px) + its original offset (15px).
 */
 body[data-menu-position="open"] .menu-trigger { left: 265px; /* 250px (panel width) + 15px (original offset) */ }
+
+/* ========================================================================== Final Custom Overrides ========================================================================== */
+/* 1. Set the consistent font family for all major elements */
+body, article, .post-meta, .meta, .site-footer, .jpanel-menu, .related-posts, .pagination, button, input, select, textarea { font-family: 'Montserrat', sans-serif !important; font-weight: 400 !important; }
+
+/* 2. Unify text styles for all main content (paragraphs AND lists) */
+.post-content p, .single-content p, .post-content li, .single-content li { font-size: 2.1rem !important; /* Unifies font size to match paragraphs */ line-height: 1.65 !important; text-align: justify; }
+
+/* 3. Style all headings */
+h1, h2, h3, h4, h5, h6 { font-family: 'Montserrat', sans-serif !important; font-weight: 700 !important; text-align: left; }
