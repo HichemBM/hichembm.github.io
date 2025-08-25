@@ -113,3 +113,33 @@ h6 { font-size: 1.6rem !important; }
   /* This creates a soft, dark shadow below the text */
   text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.7);
 }
+
+/* ==========================================================================
+   Homepage Call-to-Action Buttons
+   ========================================================================== */
+
+/* 1. Style the container for the buttons */
+.home-ctas {
+  margin-top: 3rem; /* Adds space above the buttons */
+}
+
+/* 2. Style each button */
+.home-ctas .btn {
+  display: inline-block; /* Allows padding and margins */
+  padding: 12px 24px;
+  margin: 0 10px; /* Adds space between buttons */
+  border: 2px solid #333; /* A dark border */
+  border-radius: 5px; /* Rounded corners */
+  background-color: transparent; /* Transparent background */
+  color: #333; /* Dark text color */
+  font-size: 1.6rem; /* Sets a readable font size */
+  font-weight: 700; /* Bolder text */
+  text-decoration: none;
+  transition: all 0.2s ease-in-out; /* Smooth transition for hover */
+}
+
+/* 3. Style the button on hover */
+.home-ctas .btn:hover {
+  background-color: #333; /* Dark background on hover */
+  color: #fff; /* White text on hover */
+}
