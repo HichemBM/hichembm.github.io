@@ -115,31 +115,48 @@ h6 { font-size: 1.6rem !important; }
 }
 
 /* ==========================================================================
-   Homepage Call-to-Action Buttons
+   Homepage Call-to-Action Buttons (Responsive)
    ========================================================================== */
 
-/* 1. Style the container for the buttons */
+/* 1. Style the container for the buttons using Flexbox */
 .home-ctas {
-  margin-top: 3rem; /* Adds space above the buttons */
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center; /* Center the buttons horizontally */
+  align-items: center;
+  flex-wrap: wrap; /* Allows wrapping on medium-sized screens */
+  gap: 15px; /* Modern way to add space between and below buttons */
 }
 
 /* 2. Style each button */
 .home-ctas .btn {
-  display: inline-block; /* Allows padding and margins */
+  display: inline-block;
   padding: 12px 24px;
-  margin: 0 10px; /* Adds space between buttons */
-  border: 2px solid #333; /* A dark border */
-  border-radius: 5px; /* Rounded corners */
-  background-color: transparent; /* Transparent background */
-  color: #333; /* Dark text color */
-  font-size: 1.6rem; /* Sets a readable font size */
-  font-weight: 700; /* Bolder text */
+  border: 2px solid #333;
+  border-radius: 5px;
+  background-color: transparent;
+  color: #333;
+  font-size: 1.6rem;
+  font-weight: 700;
   text-decoration: none;
-  transition: all 0.2s ease-in-out; /* Smooth transition for hover */
+  transition: all 0.2s ease-in-out;
 }
 
 /* 3. Style the button on hover */
 .home-ctas .btn:hover {
-  background-color: #333; /* Dark background on hover */
-  color: #fff; /* White text on hover */
+  background-color: #333;
+  color: #fff;
+}
+
+/* 4. Responsive styles for mobile and small screens */
+@media (max-width: 768px) {
+  .home-ctas {
+    flex-direction: column; /* Stack the buttons vertically */
+  }
+
+  .home-ctas .btn {
+    width: 80%; /* Give the buttons a consistent width */
+    max-width: 320px; /* Prevent them from being too wide */
+    text-align: center; /* Ensure text is centered */
+  }
 }
