@@ -6,9 +6,7 @@ categories: Jellysmack
 author_name: Hichem
 author_url: /about/
 author_avatar: hichem
-show_avatar: true
-read_time: 7
-feature_image: feature-office # Example, replace with actual image name
+feature_image: feature-office
 ---
 Establishing the New Los Angeles Tech Hub
 

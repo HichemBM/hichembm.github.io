@@ -18,7 +18,7 @@ permalink: :title
 nav_list:
   Home: ['Home', '/', 'fa-home']
   About: ['About', '/about/', 'fa-user']
-  Projects: ['Projects', '/projects/', 'fa-briefcase']
+  Experience: ['Experience', '/experience/', 'fa-briefcase']
   Blog: ['Blog', '/blog/', 'fa-pencil']
   Contact: ['Contact', '/contact/', 'fa-envelope']
 
