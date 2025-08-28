@@ -127,4 +127,5 @@ I oversaw all IT operations for Europe's leading car-sharing marketplace, scalin
 * [Case Study: Enhancing Company-Wide Security with 1Password &rarr;](/drivy-1password-deployment)
 * [Anatomy of a Crisis: Lessons in IT Incident Management &rarr;](/case-study-it-crisis-management-drivy)
 
-***
+---
+*If my experience resonates with your needs, let's <a href="https://www.linkedin.com/in/hichem-bm/" target="_blank" rel="noopener noreferrer">connect</a> and discuss further.*

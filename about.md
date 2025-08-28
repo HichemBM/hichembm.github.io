@@ -7,26 +7,26 @@ desc: Hichem BM is an IT Management expert focused on optimizing IT operations, 
 
 ---
 
-I'm really into building IT setups that are not only super efficient but also secure. It’s about making sure the technology genuinely helps the business run smoother and grow. I get a kick out of looking at existing systems, figuring out what's not working quite right, and then putting in place solid procedures and tools. Getting Google Workspace running like clockwork, sorting out mobile device management, keeping SaaS in check, and automating the boring bits are examples of initiatives that drive me.
 
-For me, smooth IT operations are the backbone of any successful company. I tend to focus on:
+Hello World, I'm Hichem (HEE-shem).
 
-* **Making sure everything runs smoothly**: setting up and fine-tuning IT processes so things are consistent, we don’t get bogged down with manual tasks, and the IT support is top-notch.
-* **Picking the right tools for the job**: I'm all about using the right tech (like JAMF Pro for managing Macs, [BetterCloud](https://www.bettercloud.com/){:target="_blank" rel="noopener noreferrer"} to keep an eye on SaaS apps, or 1Password to lock down passwords) to tackle problems and make things better.
-* **Being smart with money**: I'm pretty careful with IT budgets and always on the lookout for ways to save a bit without cutting corners on quality or security, like ditching Dropbox for Google Drive if it makes more sense.
-* **Making sure everyone's happy and productive**: I want people to have the tools and help they need, which sometimes means building things myself, like automated bots for Slack.
+For over a decade, I've been immersed in the world of Information Technology, but my core belief has always been simple:\
+**technology should be an invisible enabler of a company's success, not a roadblock.**
 
-My career has pretty much been about making IT work better. At [Jellysmack](https://jellysmack.com/){:target="_blank" rel="noopener noreferrer"}, as IT Director, a big part was making sure vendor management was spot on and setting up IT support when things were changing fast. I've spent a ton of time diving deep into Google Workspace, using [GAM](https://github.com/GAM-team/GAM){:target="_blank" rel="noopener noreferrer"} a lot to get things done quickly for loads of users at places like [Getaround](https://fr.getaround.com/){:target="_blank" rel="noopener noreferrer"}, [Alan](https://alan.eu){:target="_blank" rel="noopener noreferrer"}, [Qonto](http://qonto.com/){:target="_blank" rel="noopener noreferrer"}, and Drivy.
+My goal is to build IT environments where teams feel empowered and productive, and where systems are so reliable and intuitive that people can focus on their best work without ever having to think about the tools.
 
-At Drivy, I got 1Password for Teams up and running to make password management easier, and put JAMF Pro in place to keep the Macs in check. I even built comprehensive onboarding and offboarding workflows to automate the User Lifecycle Management. When Getaround and Drivy merged, I was using [GAM](https://github.com/GAM-team/GAM){:target="_blank" rel="noopener noreferrer"} intensively to merge the Google Workspace instances. At [Getaround](https://fr.getaround.com/){:target="_blank" rel="noopener noreferrer"}, I've revamped the Network Infrastructure in the Paris HQ, and even back at [Buzzman](https://buzzman.eu/){:target="_blank" rel="noopener noreferrer"}, it was all about getting Google Workspace set up right.
+### My Professional Journey
 
-You can see more of the projects where I've been focusing on making things more efficient in the [Projects section](/projects/).
+My career has been shaped by the unique challenges of high-growth startups and scale-ups. I started my journey at **Drivy**, where I learned firsthand how to scale IT operations to support a team that was doubling in size. It was there I discovered the importance of robust security protocols, leading the deployment of 1Password and managing my first critical incidents.
 
-I believe in staying at the forefront of technology, which involves a commitment to ongoing learning. To that end, I've recently achieved my [JAMF 100 certification](https://www.credly.com/badges/12f6f183-f3e1-4fe1-b905-b5803b7d5433){:target="_blank" rel="noopener noreferrer"} and am in the process of completing [Google specializations](https://www.coursera.org/learner/hichem-bm){:target="_blank" rel="noopener noreferrer"} in IT Automation with Python and Project Management. My next goal is the Google Workspace certification.
+That experience was the perfect foundation for the strategic challenge that came next: leading the post-acquisition IT integration of Drivy into **Getaround**. Merging two international companies was more than a technical project; it was about **uniting two cultures into a single**, cohesive digital identity. It required meticulous planning, clear communication, and a deep understanding of culture and compliance frameworks.
 
-This continuous development is complemented by personal projects where I explore new technologies, often incorporating AI to discover innovative solutions. For example, I’ve built a flashcard-like website that helped train for my JAMF 100 certification.
+From there, I've had the privilege of leading teams and building processes at some of Europe's most exciting tech companies, including **Qonto**, **Alan**, and **Jellysmack**. Each role has reinforced my belief in a hands-on, proactive approach—whether it was implementing an asset management system from the ground up, automating the entire employee onboarding process, or managing the IT logistics for a new international headquarters.
 
-It's this appetite for continuous learning and progress that I bring to every challenge.
+### Beyond the Keyboard
 
----
-*If my experience resonates with your needs, let's <a href="https://www.linkedin.com/in/hichem-bm/" target="_blank" rel="noopener noreferrer">connect</a> and discuss further.*
+My passion for building and optimizing systems doesn't stop when I log off. At home, you'll often find me working on my homelab—a custom-built server for media, backups, and experimentation—or finding new ways to automate my smart home. This love for hands-on tech even extends to projects like building a smart mirror with a Raspberry Pi.
+
+When I'm not tinkering with hardware, I'm probably deep into a strategy game like *Civilization*, which satisfies my love for long-term planning. And when it's time to truly disconnect, my go-to is the water. Whether it's swimming or exploring the sea, it's the perfect way for me to clear my head and recharge.
+
+I'm always open to discussing new challenges in tech leadership and process optimization. If my approach to technology leadership resonates with you, I'd be very pleased to <a href="https://www.linkedin.com/in/hichem-bm/" target="_blank" rel="noopener noreferrer">connect</a>.
