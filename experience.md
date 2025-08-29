@@ -6,7 +6,7 @@ feature_image: feature-experience
 desc: A showcase of my IT journey, from building foundational systems at early-stage startups to navigating complex, post-acquisition integrations.
 
 ---
-For the last decade, I've been at the heart of fast-growing technology companies, specializing in building their IT functions from the ground up. My passion is turning chaos into clarity, byimplementing the essential processes, tools, and infrastructure that allow startups to scale securely and efficiently. Below is a detailed look at my journey and the key projects I led along the way.
+For the last decade, I've been at the heart of fast-growing technology companies, specializing in building their IT functions from the ground up. My passion is turning chaos into clarity, by implementing the essential processes, tools, and infrastructure that allow startups to scale securely and efficiently. Below is a detailed look at my journey and the key projects I led along the way.
 
 ***
 
