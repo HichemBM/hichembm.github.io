@@ -7,11 +7,10 @@ author_name: Hichem
 author_url: /about/
 author_avatar: hichem
 show_avatar: true
-read_time: 6
 feature_image: qonto-office-1
 ---
 
-*Enhancing IT Asset Visibility and Control*
+*Enhancing IT Asset Visibility and Control.*
 
 **Situation:** As Qonto, a company in the banking industry[cite: 146], experienced rapid growth, managing the expanding inventory of IT assets (laptops, mobile devices, peripherals) became increasingly complex. A robust and centralized asset management system was needed for tracking, maintenance, and compliance.
 

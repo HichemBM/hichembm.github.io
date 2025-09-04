@@ -6,7 +6,6 @@ categories: Alan
 author_name: Hichem
 author_url: /about/
 author_avatar: hichem
-show_avatar: true
 feature_image: alan-office-1
 ---
 *Delivering Windows applications on macOS, Anywhere.*
