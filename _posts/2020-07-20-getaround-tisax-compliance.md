@@ -1,49 +1,54 @@
 ---
 layout: post
-title: "Paving the Road to ISO 27001: A TISAX Compliance Deep Dive"
+title: "TISAX Compliance: From Process to Policy"
 date: 2020-09-15
 categories: Getaround
 author_name: Hichem
 author_url: /about/
 author_avatar: hichem
-feature_image: banner-getaround-1
+feature_image: banner-compliance
+---
+*Building a policy-driven framework to unlock strategic partnerships.*
+
+In the world of IT infrastructure, it’s easy to get caught up in the day-to-day tickets and deployments. But the most impactful work often involves stepping back and building the frameworks that turn scattered processes into a mature, auditable system. A few years ago at [Getaround](https://www.getaround.com/){:target="_blank" rel="noopener noreferrer"}, I was part of a project that perfectly illustrated this shift: preparing the company for TISAX compliance.
+
+### The Challenge: Earning a Seat at the Automotive Table
+
+The business goal was straightforward and strategic: Getaround was aiming to forge partnerships with major automotive OEMs. To be considered a serious partner in that industry, however, you have to speak their language, and a huge part of that language is information security. We needed to demonstrate our maturity, and that meant preparing for a [TISAX](https://en.wikipedia.org/wiki/Trusted_Information_Security_Assessment_Exchange){:target="_blank" rel="noopener noreferrer"} (Trusted Information Security Assessment Exchange) assessment, the industry's gold standard.
+
+Executive leadership moved quickly, forming a task force that included our CTO, Legal Counsel, and an external security partner. My role was clear: as the IT stakeholder, I was responsible for taking our existing IT systems and processes, formalizing them, and ensuring they met the rigorous TISAX standards. This wasn't about a single tool or technology; it was about building a foundation of governance from the ground up.
+
+### Building the Foundation: A Policy-Driven Approach
+
+Our first step was an honest look in the mirror. Working alongside our external CISO and internal team, we conducted a gap analysis to see where our current practices stood against the TISAX requirements. We weren't starting from zero, but many of our processes were informal or lacked global consistency. The goal wasn't just to pass an audit but to create a sustainable security posture.
+
+We prioritized the quick wins first to build momentum, then moved to the heavier lifts. My core responsibility was to author and sponsor the official policies that would serve as our new rulebook. This meant documenting what we already did well, defining new standards where we had gaps, and then rolling out these policies across a global organization.
+
+I was the official **sponsor** for a number of critical IT policies, including:
+
+* **Access Management Policy:** Defining a least-privilege model for who gets access to what, and why.
+* **IT Asset Management:** Creating a formal lifecycle for every piece of hardware, from acquisition to secure disposal.
+* **Full Disk Encryption Policy:** Mandating encryption across all company devices to protect data at rest.
+* **Network Management Policy:** Establishing secure configuration standards for our entire network infrastructure.
+* **Business Continuity Plan:** Outlining our strategy for keeping critical systems running when things go wrong.
+
+This was a collaborative effort, involving deep dives with various departments to ensure the policies were not only compliant but also practical for day-to-day operations.
+
+### The Result: A Framework for Future Growth
+
+This project was far more than a paper exercise. The outcome was a set of roughly ten robust IT policies that were implemented globally, taking into account regional regulations like GDPR. We moved from tribal knowledge and ad-hoc procedures to a clear, documented, and **enforceable** set of security controls.
+
+The immediate result was that we successfully positioned Getaround as a mature, security-conscious partner, ready for the rigors of the automotive industry. But the long-term impact was even greater.
+
+The GRC (Governance, Risk, and Compliance) framework we built for TISAX laid the essential groundwork that enabled [Getaround to achieve ](https://www.businesswire.com/news/home/20240820729492/en/Getaround-Successfully-Secures-ISO-27001-Certification-Reinforces-Leadership-in-Carsharing-Connected-Car-Space){:target="_blank" rel="noopener noreferrer"} the prestigious **ISO 27001 certification** a few years later.
+
+
+### Key Takeaway
+
+This project reinforced a core belief of mine: proactive governance isn't a roadblock; it's a business accelerator. By treating compliance as an opportunity to mature our internal processes, we didn't just earn a certification. We built a more resilient, secure, and scalable IT foundation that could support the company's ambitious goals.
+
 ---
 
-My approach to IT has always been grounded in the robust frameworks that govern enterprise-level security and operations. I’ve consistently drawn inspiration from standards like NIST to build processes that are not just efficient, but also secure and auditable. In 2020, this governance-first mindset became critical when Getaround embarked on the path to TISAX compliance.
+I'm always interested in hearing how other teams have tackled similar GRC challenges. What has your experience been with turning informal processes into auditable policies?
 
-### The Strategic Imperative: Aligning with Automotive Industry Standards
-
-TISAX (Trusted Information Security Assessment Exchange) is the gold standard for information security in the automotive industry. 
-
-For Getaround, preparing for the TISAX assessment was a strategic business imperative required to strengthen partnerships and operate with the highest level of trust within this ecosystem.
-
-As a key IT stakeholder, my role was to architect and drive the implementation of the core policies and controls necessary to meet these rigorous standards. 
-
-I collaborated closely with a dedicated cross-functional team, our Legal Counsel, and a third-party audit partner to build a comprehensive information security framework from the ground up.
-
-### Building a Framework of Governance, Risk, and Compliance (GRC)
-
-Our work began with a comprehensive gap analysis, measuring our existing IT systems against the stringent TISAX assessment criteria, which are heavily influenced by the ISO 27001 framework. 
-
-My leadership was central to authoring, sponsoring, and implementing a suite of policies that would serve as the foundation of our new GRC framework.
-
-As the official **Sponsor** for IT topics, I took ultimate ownership of several core policies, including:
-
-* **Access Management Policy:** Establishing a "least-privilege" access model based on NIST guidelines to define and verify user access to all critical systems.
-* **Full Disk Encryption Policy:** Mandating and outlining the processes for encrypting all company devices to protect data at rest, a fundamental security control.
-* **Network Management Policy:** Defining secure configuration standards for all network equipment to protect our data from unauthorized access and ensure network integrity.
-* **IT Asset Management Policy:** Creating a formal lifecycle for all physical IT assets—from planning and acquisition to secure disposal—based on ISO standards and NIST best practices.
-
-Beyond sponsoring these documents, I provided critical stewardship for other essential policies, including those for Business Continuity Planning, Data Backups, and the Responsible Use of IT Systems.
-
-### The Outcome: A Foundational Step Towards ISO 27001 Certification
-
-Through this structured and policy-driven approach, we successfully established a mature, auditable information security program built on internationally recognized standards.
-
-While our initial focus was TISAX, the comprehensive GRC framework, policies, and controls we developed were instrumental in paving the way for the company's future success. 
-
-The foundational work performed by our team directly enabled [Getaround to achieve ](https://www.businesswire.com/news/home/20240820729492/en/Getaround-Successfully-Secures-ISO-27001-Certification-Reinforces-Leadership-in-Carsharing-Connected-Car-Space)the prestigious **ISO 27001 certification** a few years later.
-
-This project was a testament to the power of proactive governance. By treating compliance not as a final destination but as a framework for operational excellence, we fundamentally strengthened the company's security posture and built the necessary foundation for future security achievements. 
-
-It solidified my belief that a rigorous, policy-driven approach is the most effective way to manage risk and build trust in any regulated industry.
+Let me know your thoughts in the comments or connect with me on [LinkedIn](https://www.linkedin.com/in/hichem-bm/){:target="_blank" rel="noopener noreferrer"}.
